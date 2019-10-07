@@ -1,10 +1,6 @@
 # Introduction
 
-Error handling is a part of the overall security of an application. Except in movies, an attack always begin by a **Reconnaissance** phase in which the attacker will try to gather as many technical information (often *name* and *version* properties) as possible about the target like for example the application server, the technologies, the frameworks, the libraries...
-
-So, if errors are not well handled then it can highly facilitate the work for an attacker into this initial phase that is very important for the rest of the whole attack.
-
-The following [link](http://blog.cipher.com/the-6-primary-phases-of-penetration-testing) provide an example of description of the differents phases of an attack.
+Error handling is a part of the overall security of an application. Except in movies, an attack always begins with a **Reconnaissance** phase in which the attacker gathers as much technical information as possible, often name and version of the application server, frameworks, and supporting libraries about the target. Pooorly handled errors expose this information to potential attackers.
 
 # Context
 
@@ -369,6 +365,7 @@ namespace MyProject
 References:
 
 - [Exception handling with ASP.Net Web API](https://exceptionnotfound.net/the-asp-net-web-api-exception-handling-pipeline-a-guided-tour/)
+- [The Six Phases of a Penetration Test](http://blog.cipher.com/the-6-primary-phases-of-penetration-testing)
 
 # Sources of the prototype
 
